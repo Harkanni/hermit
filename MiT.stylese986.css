@@ -1,0 +1,68 @@
+/* _content/MiT/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-cztunv2rge] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-cztunv2rge] {
+    color: #0077cc;
+}
+
+.btn-primary[b-cztunv2rge] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-cztunv2rge], .nav-pills .show > .nav-link[b-cztunv2rge] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-cztunv2rge] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-cztunv2rge] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-cztunv2rge] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-cztunv2rge] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+
+
+.progressBar[b-cztunv2rge] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    width: 0%;
+    z-index: 100;
+    transition: width 0.2s ease-out;
+}
+
+
+
+
+.footer[b-cztunv2rge] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*width: 100vw;*/
+    white-space: nowrap;
+    line-height: 60px;
+}

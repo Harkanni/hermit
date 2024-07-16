@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from localhost:7185/Payment/Verify by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 10:52:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>make payment - MiT</title>
+    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/site623c.css?v=GNdyBBETl3DRnBpO5KPBI4d0V3T637ZloUcOmqTGrjU" />
+    <link rel="stylesheet" href="../MiT.stylese986.css?v=28QaAa6mye0LYy7DOSb1jw8QSZw3rYgQSrrrxGZpZhk" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>    
+    <div b-cztunv2rge class="containerdd">
+        <main b-cztunv2rge role="main" class="py-5">
+            <div b-cztunv2rge class="progressBar"></div>
+            
+ 
+            
+
+
+<div class="verify-form-container form-container">
+    <div id="tsparticles"></div>
+    <h2 style="font-size: 18px; color: #fff; font-weight: 600">Please enter your details</h2>
+    <p style="font-size: 14px; color: rgb(196, 196, 196); margin-bottom: 1.5rem">We collect this information to help combat fraud, and to keep your payment secure.</p>
+
+    <form method="post" enctype="multipart/form-data" id="verificationForm">
+        <div class="form-group">
+            <div class="input-container">
+                <input placeholder="Firstname" type="text" data-val="true" data-val-maxlength="The field Firstname must be a string or array type with a maximum length of &#x27;100&#x27;." data-val-maxlength-max="100" data-val-required="The Firstname field is required." id="Firstname" maxlength="100" name="Firstname" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Firstname" data-valmsg-replace="true"></span>
+            <div class="input-container">
+                <input placeholder="Lastname" type="text" data-val="true" data-val-maxlength="The field Lastname must be a string or array type with a maximum length of &#x27;100&#x27;." data-val-maxlength-max="100" data-val-required="The Lastname field is required." id="Lastname" maxlength="100" name="Lastname" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Lastname" data-valmsg-replace="true"></span>
+            <div class="input-container">
+                <input placeholder="Email" type="text" data-val="true" data-val-maxlength="The field Email must be a string or array type with a maximum length of &#x27;100&#x27;." data-val-maxlength-max="100" data-val-required="The Email field is required." id="Email" maxlength="100" name="Email" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+        </div>
+
+
+        <div class="form-group">
+            <div class="input-container">
+                <input placeholder="Amount Paid" type="text" data-val="true" data-val-number="The field Amount Paid must be a number." data-val-required="Please enter a number" id="AmountPaid" name="AmountPaid" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="AmountPaid" data-valmsg-replace="true"></span>
+            <div class="input-container">
+                <input placeholder="Sender's Bank name" type="text" data-val="true" data-val-required="The Sender&#x27;s Bank name field is required." id="SenderBankName" name="SenderBankName" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="SenderBankName" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="input-container" style="padding-right: 1rem;">
+                <select style="color: rgb(196, 196, 196); margin-top: .7rem; background-color: rgb(51, 51, 51);" data-val="true" data-val-required="Please select a payment method." id="SelectedPaymentMethod" name="SelectedPaymentMethod">
+                    <option disabled selected>Transfer Type</option>
+                <option value="0">Mobile App (OPAY)</option>
+<option value="1">Bank USSD (*955#)</option>
+<option value="2">Bank Deposit</option>
+</select>
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="SelectedPaymentMethod" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="input-container">
+                <input placeholder="Sender's Bank account number" type="text" data-val="true" data-val-required="The Sender&#x27;s Bank Account Number field is required." id="Senderaccountnumber" name="Senderaccountnumber" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="Senderaccountnumber" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="input-container">
+                <input placeholder="Payment date" type="text" data-val="true" data-val-required="The Payment Date field is required." id="PaymentDate" name="PaymentDate" value="">
+            </div>
+            <span class="text-danger field-validation-valid" data-valmsg-for="PaymentDate" data-valmsg-replace="true"></span>
+            <label class="form-floating text-light" for="ImageUrl">Upload Payment Proof</label>
+            <div class="input-container">
+                <input type="file" name="file" placeholder="Payment proof">
+            </div>
+            <span class="field-validation-valid" data-valmsg-for="ImageUrl" data-valmsg-replace="true"></span>
+        </div>
+
+        <button type="submit" class="d-block items-center justify-center text-sm w-100 text-light border-0 bg-gradient-pink p-3 b-radius-xsmall mb-4 fw-bold" id="verificationFormBTN">Buy now</button>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8G30gnhxUO1PtEGOjo4msQe4nb2DBdpW28D3bXm3qYSQtCypGmQZ0KO1G5QokP0NIr15NJv6jvDjcc_gQpMbd9mhahJf8Ghx34FR3kU1Rie9SK9NMRuRLQevmUNC_x5vZpmju1K2QhfILIMxdz_dpA0" /></form>
+</div>
+
+        </main>
+    </div>
+
+    <footer b-cztunv2rge class="border-top footer text-muted">
+        <div b-cztunv2rge class="container">
+            &copy; 2024 - MiT - <a href="../Home/Privacy.html">Privacy</a>
+        </div>
+    </footer>
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="../_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="96dd923176964979b2dfe597a61a59dc" data-requestMappingFromServer="false" data-connectUrl="http://localhost:11313/b5b4c99468e046f7884b9c1647789cd6/browserLink"></script>
+<!-- End Browser Link -->
+<script src="../_framework/aspnetcore-browser-refresh.js"></script></body>
+
+<!-- Mirrored from localhost:7185/Payment/Verify by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 10:52:21 GMT -->
+</html>
