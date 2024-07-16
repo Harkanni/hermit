@@ -1,198 +1,194 @@
 ﻿@media screen and (max-width: 720px) {
-    .new-era-of-react {
-        width: 90% !important;
-    }
+  .new-era-of-react {
+    width: 90% !important;
+  }
 
-    .hero-img-container {
-        width: 90%;
-    }
+  .hero-img-container {
+    width: 90%;
+  }
 }
 
-
 @media screen and (max-width: 520px) {
-    .small-semi-bold-mobile {
-        font-size: 12px;
-        font-weight: 600 !important;
-        line-height: 15px;
-        letter-spacing: 2px;
-    }
-    .hero {
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 35px;
-        letter-spacing: -.64px;
-    }
+  .small-semi-bold-mobile {
+    font-size: 12px;
+    font-weight: 600 !important;
+    line-height: 15px;
+    letter-spacing: 2px;
+  }
+  .hero {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.64px;
+  }
 
-    .hero-subtext {
-        font-size: 16px;
-        line-height: 20.8px;
-        width: 310px;
-        color: rgb(208 223 255) !important;
-        margin-top: .25rem;
-    }
+  .hero-subtext {
+    font-size: 16px;
+    line-height: 20.8px;
+    width: 310px;
+    color: rgb(208 223 255) !important;
+    margin-top: 0.25rem;
+  }
 
-    .read-more {
-        width: 100%;
-        font-size: 16px;
-        line-height: 20.8px;
-        color: rgb(208 223 255) !important;
-        margin-bottom: 0px !important
-    }
+  .read-more {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgb(208 223 255) !important;
+    margin-bottom: 0px !important;
+  }
 
-    .new-era-of-react .hero {
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 31.2px;
-        letter-spacing: -.64px;
-        text-align: left;
-    }
+  .new-era-of-react .hero {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31.2px;
+    letter-spacing: -0.64px;
+    text-align: left;
+  }
 
-    .new-era-of-react .hero-subtext {
-        width: 100%;
-        line-height: 2.5rem;
-        font-size: 17px;
-    }
+  .new-era-of-react .hero-subtext {
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: 17px;
+  }
 
-    .chatgpt img, .iceberg img, .stats img {
-        scale: 1.1
-    }
+  .chatgpt img,
+  .iceberg img,
+  .stats img {
+    scale: 1.1;
+  }
 
-    .new-era-of-react .font-regular {
-        font-size: 17px !important;
-    }
+  .new-era-of-react .font-regular {
+    font-size: 17px !important;
+  }
 
-    .quote-container {
-        margin-block: 3rem;
-    }
+  .quote-container {
+    margin-block: 3rem;
+  }
 
-    .quote-container h3 {
-        font-size: 18px !important;
-    }
+  .quote-container h3 {
+    font-size: 18px !important;
+  }
 
-    .quote-container .right-quote {
-        position: absolute;
-        left: 0;
-        z-index: -1;
-        transform: translateY(-1rem);
-    }
+  .quote-container .right-quote {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transform: translateY(-1rem);
+  }
 
-    .quote-container .left-quote {
-        position: absolute;
-        right: 0;
-        z-index: -1;
-        transform: translateY(1rem);
-    }
+  .quote-container .left-quote {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: translateY(1rem);
+  }
 
-    .the-catch .trailing-sm {
-        line-height: unset;
-    }
+  .the-catch .trailing-sm {
+    line-height: unset;
+  }
 
-    .the-catch .font-large {
-        font-size: 21.7px !important;
-    }
+  .the-catch .font-large {
+    font-size: 21.7px !important;
+  }
 
-    .most-sought-after h3 {
-        font-size: 23px !important;
-    }
+  .most-sought-after h3 {
+    font-size: 23px !important;
+  }
 
-    br.line-break {
-        margin-block: 0.5rem;
-    }
+  br.line-break {
+    margin-block: 0.5rem;
+  }
 
-    .quote-container {
-        gap: 0 !important;
-    }
-    .video-container {
-        height: 100% !important;
-    }
+  .quote-container {
+    gap: 0 !important;
+  }
+  .video-container {
+    height: 100% !important;
+  }
 
+  article.reviews .row {
+    gap: 1rem;
+  }
 
-    .review-section, .what-you-will-learn-section {
-        width: 90% !important;
-    }
+  .review-section,
+  .what-you-will-learn-section {
+    width: 90% !important;
+  }
 
-    .reviews h3 {
-        font-size: 22px !important;
-    }
+  .reviews h3 {
+    font-size: 22px !important;
+  }
 
-    .pricing-section {
-        width: 98% !important;
-    }
+  .pricing-section {
+    width: 98% !important;
+  }
 
-    .pricing-section  {
-        padding-top: 0 !important;
-    }
+  .pricing-section {
+    padding-top: 0 !important;
+  }
 
-    .pricing-section h2 {
-        font-size: 22px !important;
-    }
+  .pricing-section h2 {
+    font-size: 22px !important;
+  }
 
-    .pricing-section .mt-5 {
-        margin-top: 1rem !important;
-    }
+  .pricing-section .mt-5 {
+    margin-top: 1rem !important;
+  }
 
-        .pricing-section .gy-5 {
-            --bs-gutter-y: 1rem;
-        }
+  .pricing-section .gy-5 {
+    --bs-gutter-y: 1rem;
+  }
 
-    .pricing-section .hero-subtext {
-        margin-top: 2rem;
-    }
+  .pricing-section .hero-subtext {
+    margin-top: 2rem;
+  }
 
-    .price-card-container {
-        box-shadow: 0 0 #0000, 0 0 #0000, 0px 10px 40px 0px rgba(40, 49, 60, 0.3);
-        border-color: rgb(33 144 255) !important;
-        border: 1px solid;
-        padding-inline: 1rem !important;
-    }
+  .price-card-container {
+    box-shadow: 0 0 #0000, 0 0 #0000, 0px 10px 40px 0px rgba(40, 49, 60, 0.3);
+    border-color: rgb(33 144 255) !important;
+    border: 1px solid;
+    padding-inline: 1rem !important;
+  }
 
-    .sm-deep-dive {
-        font-size: 17px !important;
-    }
-    .shadow-price-card {
-        margin-bottom: 2rem;
-    }
+  .sm-deep-dive {
+    font-size: 17px !important;
+  }
+  .shadow-price-card {
+    margin-bottom: 2rem;
+  }
 
-    .faq-section h2 {
-        font-size: 24px !important;
-        text-align: left;
-    }
+  .faq-section h2 {
+    font-size: 24px !important;
+    text-align: left;
+  }
 
-    .faq-section .accordion-header h4 {
-        font-size: 16px !important;
-        font-weight: 600 !important;
-        line-height: 19px;
-        text-align: left;
-    }
+  .faq-section .accordion-header h4 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 19px;
+    text-align: left;
+  }
 
+  .verify-form-container {
+    width: 100% !important;
+  }
 
+  #confetti-wrapper .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
-    .verify-form-container {
-        width: 100% !important;
-    }
-
-    #confetti-wrapper .modal-dialog {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #confetti-wrapper .card {
-        width: 90% !important;
-    }
+  #confetti-wrapper .card {
+    width: 90% !important;
+  }
 }
 
 #confetti-wrapper div#myModal {
-    z-index: -1;
+  z-index: -1;
 }
 
 .modal-backdrop {
-    opacity: 0 !important;
+  opacity: 0 !important;
 }
